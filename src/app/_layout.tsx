@@ -24,6 +24,15 @@ export default function Layout() {
           )
         }}
       />
+      <Tabs.Screen
+        name="cycle"
+        options={{
+          title: "Cycle",
+          tabBarIcon: ({ color, size}) => (
+            <Ionicons name="stats-chart-outline" color={color} size={size} />
+          )
+        }}
+      />
     </Tabs>
   );
 }
